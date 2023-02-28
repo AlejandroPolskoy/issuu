@@ -1,0 +1,122 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+}
+
+body {
+    position: relavite;
+}
+
+#signin {
+    float: right;
+}
+
+header {
+    border-bottom: 4px rgb(233, 233, 233) solid;
+    padding: 12px 80px;
+}
+
+main {
+    padding: 80px 120px;
+
+}
+
+footer {
+    min-width: 100vw;
+    position: absolute;
+    bottom: 0px;
+    border-top: 4px rgb(233, 233, 233) solid;
+    padding: 24px 0px;
+}
+footer span {
+    margin: 0 20px;
+}
+footer span:first-child {
+    margin-right: 80px;
+    margin-left: 80px;
+}
+
+h1 {
+    margin: 20px 0;
+    font-size: 32px;
+}
+
+p {
+    margin: 24px 0;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+}
+a:visited {
+    color: blue;
+}
+
+.signlink {
+    padding: 3px 14px 0px 3px;
+    display: inline-flex;
+    border-radius: 4px;
+    align-items: center;
+    color: white;
+}
+.signlink a {
+    color: white;
+    text-decoration: none;
+}
+.ggl {
+    background-color: cornflowerblue;
+}
+.ggl::before {
+    content: url("../img/ggl.jpg");
+    margin-right: 8px;
+}
+.fcb {
+    background-color: rgb(26, 82, 185);
+}
+.fcb::before {
+    content: url('../img/fcb.jpg');
+    margin-right: 8px;
+}
+
+#form1 {
+    max-width: 540px;
+    width: 100%;
+}
+
+.row {
+    margin: 30px 0;
+}
+.terms {
+    font-size: 18px;
+    display: flex;
+    align-items: middle;
+}
+.terms a {
+    font-size: 18px;
+}
+
+input[type="text"], input[type="password"] {
+    width: 100%;
+}
+input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    margin: 0 8px 0 0;
+}
+
+.formlabel {
+    font-weight: bold;
+    margin: 8px 0;
+}
+
+#btn_ca {
+    color: grey;
+    border-radius: 40px;
+    border: 2px grey dashed;
+    padding: 20px 40px;
+    letter-spacing: 2px;
+    background-color: white;
+}
+
